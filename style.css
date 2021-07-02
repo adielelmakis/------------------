@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+height: 100vh;
+width: 100%;
+background-image: url(img/background.png);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+}
+.header {
+    height: 100px;
+    /* background: #ccc; */
+}
+.main-app{
+    display: grid;
+    grid-template-columns: 200px 300px auto;
+}
+.main{
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.topbar{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 28px;
+  height: 150px;
+  grid-auto-flow: row;
+  border: 2px solid black;
+  margin: 20px;
+
+}
+
+.box{
+
+    border-spacing: 15px;
+    display: grid;
+    gap : 10px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+    border: 2px solid black;
+
+}
+
+.clude
+{
+    background-image: url(img/Shower.png);
+}
+
+.Column{
+  margin: 7%;
+  text-align: center;
+
+}
+.temp-cont{
+  direction: ltr;
+  margin-top: 10px;
+}

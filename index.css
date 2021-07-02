@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+  
+height: 100vh;
+width: 100%;
+background-image: url(img/background.png);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+
+
+}
+
+.container h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 240px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.container p{
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.search
+{
+    margin-left: -70px;
+    margin-top: -300px;
+    
+}
+
+
+
+.table, th, td {
+    border: 1px solid black;
+   padding-bottom: 100px;
+   padding-left: 200px;
+   
+   
+   
+   
+   
+  }
+  .box{
+      margin-left: 770px;
+      border-spacing: 15px;
+      display: grid;
+      gap : 10px;
+      grid-template-columns: 200px 200px;
+      grid-template-rows: 100px 100px;
+  }
+
+  .topL{
+    background-color: white;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .topR{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+  }
+
+  .botR{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+  }
+
+  .botL{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center; 
+    
+  }
+
+ 
+
+.topbar{
+  position: absolute;
+  display: grid;
+  margin-left: 700px;
+  margin-top: 80px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-column-gap: 1em;
+  /* direction: rtl; */
+}
+
+.Column{
+  background-color: white;
+  width: 90px;
+  height: 200px;
+  text-align: center;
+  
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* .clude
+{
+  position: absolute;
+  display: grid;
+  width: 180px;
+  height: 200px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: -90px;
+  background-image: url(img/Shower.png);
+  background-position: center;
+  background-size: cover;
+  
+  
+} */
+
+  
+
+  
+
+
+
+
+
+
+
